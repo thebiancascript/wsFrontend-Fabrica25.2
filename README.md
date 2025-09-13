@@ -26,6 +26,8 @@ Clone o repositório e instale as dependências:
 git clone https://github.com/thebiancascript/wsFrontend-Fabrica25.2.git
 cd wsFrontend-Fabrica25.2
 npm install
+
+
 🧪 Desenvolvimento
 Inicie o servidor de desenvolvimento:
 
@@ -33,6 +35,7 @@ bash
 Copy code
 npm run dev
 A aplicação estará disponível em http://localhost:3000.
+
 
 🛠️ Scripts
 dev: Inicia o servidor de desenvolvimento.
@@ -42,6 +45,7 @@ build: Cria a versão de produção da aplicação.
 start: Inicia a aplicação em modo produção.
 
 lint: Executa o ESLint para verificar problemas de código.
+
 
 📄 Estrutura de Diretórios
 src/
@@ -59,6 +63,8 @@ components/ – Componentes reutilizáveis.
 hooks/ – Hooks personalizados.
 
 types/ – Tipagens TypeScript.
+
+
 
 🌐 Deploy
 A aplicação está online no Vercel:
