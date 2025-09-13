@@ -26,6 +26,7 @@ cd wsFrontend-Fabrica25.2
 npm install
 ```
 
+
 ### 🧪 Desenvolvimento
 
 Inicie o servidor de desenvolvimento:
@@ -66,6 +67,8 @@ public/                  – Arquivos públicos
 
 ---
 
+
+
 ## 🌐 Deploy
 
 A aplicação está online no Vercel:
@@ -84,6 +87,7 @@ A aplicação está online no Vercel:
 
 ### Página que exibe os Pokémons favoritos
 ![Favoritos](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/teladefavs.png)
+
 
 
 
