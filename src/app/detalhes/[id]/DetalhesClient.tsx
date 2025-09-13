@@ -36,7 +36,6 @@ export default function DetalhesClient({ id }: Props) {
 
     fetchPokemon()
   }, [id, all])
-  }, [id, all])
 
   if (!pokemon) return <p className="text-center mt-10">Carregando...</p>
 
@@ -56,7 +55,7 @@ export default function DetalhesClient({ id }: Props) {
       <p>
         Tipo(s):{' '}
         {pokemon.types
-          .map((t: PokemonType) => t.type.name) // ✅ tipagem explícita
+          .map((t: PokemonType) => t.type.name)
           .join(', ')}
       </p>
       <p>Peso: {pokemon.weight}</p>
@@ -65,7 +64,6 @@ export default function DetalhesClient({ id }: Props) {
       <button
         onClick={() => {
           toggle(pokemon)
-          setIsFavorite(!isFavorite)
           setIsFavorite(!isFavorite)
         }}
         className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition"
