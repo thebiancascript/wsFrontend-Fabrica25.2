@@ -71,7 +71,7 @@ A aplicação está online no Vercel:
 ![Detalhes do Pokémon](./assets/infos.png)
 
 ### Página que exibe os Pokémons favoritos
-![Favoritos](./assets/teladefavs.png)
+./assets/teladefavs.png
 
 
 ⭐ Funcionalidades
