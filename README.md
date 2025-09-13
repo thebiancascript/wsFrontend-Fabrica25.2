@@ -63,12 +63,15 @@ A aplicação está online no Vercel:
 📸 Capturas de Tela
 Página inicial com a lista de Pokémons
 
+<img width="1903" height="920" alt="pokemons" src="https://github.com/user-attachments/assets/3cd38267-56ce-4cef-990b-71b0e7a7ea8a" />
 
 Página de detalhes de um Pokémon
 
+<img width="1905" height="935" alt="infos" src="https://github.com/user-attachments/assets/1bfa2dcc-2a50-463e-a0f9-9c177ded6511" />
 
 Página que exibe os Pokémons favoritos
 
+<img width="1869" height="898" alt="teladefavs" src="https://github.com/user-attachments/assets/2400f958-adf5-4145-a244-9c1eab2b9d31" />
 
 ⭐ Funcionalidades
 Listagem de Pokémons da PokéAPI.
