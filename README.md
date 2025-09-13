@@ -26,6 +26,8 @@ Clone o repositório e instale as dependências:
 git clone https://github.com/thebiancascript/wsFrontend-Fabrica25.2.git
 cd wsFrontend-Fabrica25.2
 npm install
+
+
 🧪 Desenvolvimento
 Inicie o servidor de desenvolvimento:
 
@@ -33,6 +35,7 @@ bash
 Copy code
 npm run dev
 A aplicação estará disponível em http://localhost:3000.
+
 
 🛠️ Scripts
 dev – Inicia o servidor de desenvolvimento.
@@ -42,6 +45,7 @@ build – Cria a versão de produção da aplicação.
 start – Inicia a aplicação em modo produção.
 
 lint – Executa o ESLint para verificar problemas de código.
+
 
 📄 Estrutura de Diretórios
 text
@@ -55,10 +59,14 @@ src/
  ├─ hooks/             – Hooks personalizados
  └─ types/             – Tipagens TypeScript
 assets/                – Imagens utilizadas no README
+
+
 🌐 Deploy
 A aplicação está online no Vercel:
 
 🔗 Ver site
+
+
 
 📸 Capturas de Tela
 Página inicial com a lista de Pokémons
@@ -72,6 +80,7 @@ Página de detalhes de um Pokémon
 Página que exibe os Pokémons favoritos
 
 <img width="1869" height="898" alt="teladefavs" src="https://github.com/user-attachments/assets/2400f958-adf5-4145-a244-9c1eab2b9d31" />
+
 
 ⭐ Funcionalidades
 Listagem de Pokémons da PokéAPI.
