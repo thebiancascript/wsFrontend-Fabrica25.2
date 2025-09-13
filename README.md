@@ -47,7 +47,6 @@ A aplicação estará disponível em [http://localhost:3000](http://localhost:30
 - `start` – Inicia a aplicação em modo produção.
 - `lint` – Executa o ESLint para verificar problemas de código.
 
----
 
 ## 📄 Estrutura de Diretórios
 
