@@ -22,20 +22,27 @@ export default function DetalhesClient({ id }: Props) {
   const [isFavorite, setIsFavorite] = useState(false)
 
   useEffect(() => {
-    async function fetchPokemon() {
-      const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
-      const data: Pokemon = await res.json()
-      setPokemon(data)
-      setIsFavorite(all().some(f => f.id === data.id))
+    const fetchPokemon = async () => {
+      try {
+        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+        if (!res.ok) throw new Error('Erro ao buscar Pokémon')
+        const data: Pokemon = await res.json()
+        setPokemon(data)
+        setIsFavorite(all().some(f => f.id === data.id))
+      } catch (err) {
+        console.error(err)
+      }
     }
+
     fetchPokemon()
+  }, [id, all])
   }, [id, all])
 
   if (!pokemon) return <p className="text-center mt-10">Carregando...</p>
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-center bg-[#14004d] text-red-500">
-      <h1 className="text-3xl font-bold mb-4">{pokemon.name}</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen text-center bg-[#14004d] text-red-500 p-4">
+      <h1 className="text-3xl font-bold mb-4 capitalize">{pokemon.name}</h1>
 
       <Image
         src={pokemon.sprites.front_default}
@@ -59,8 +66,9 @@ export default function DetalhesClient({ id }: Props) {
         onClick={() => {
           toggle(pokemon)
           setIsFavorite(!isFavorite)
+          setIsFavorite(!isFavorite)
         }}
-        className="mt-4 px-4 py-2 bg-red-500 text-white rounded"
+        className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition"
       >
         {isFavorite ? 'Desfavoritar' : 'Favoritar'}
       </button>

@@ -1,3 +1,5 @@
+'use client'
+
 import { Pokemon } from "@/types/pokemon";
 import Link from "next/link";
 import Image from "next/image";
