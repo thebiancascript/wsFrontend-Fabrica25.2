@@ -7,7 +7,6 @@
 
 Uma aplicação front-end para explorar, buscar e favoritar Pokémons utilizando a [PokéAPI](https://pokeapi.co/).
 
----
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -38,6 +37,7 @@ npm run dev
 
 A aplicação estará disponível em [http://localhost:3000](http://localhost:3000).
 
+
 ---
 
 ## 🛠️ Scripts
@@ -47,6 +47,7 @@ A aplicação estará disponível em [http://localhost:3000](http://localhost:30
 - `start` – Inicia a aplicação em modo produção.
 - `lint` – Executa o ESLint para verificar problemas de código.
 
+---
 
 ## 📄 Estrutura de Diretórios
 
