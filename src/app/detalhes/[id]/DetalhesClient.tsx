@@ -5,6 +5,13 @@ import Image from 'next/image'
 import { useFavorites } from '@/hooks/useFavorites'
 import { Pokemon } from '@/types/pokemon'
 
+// Tipo para os elementos do array types
+interface PokemonType {
+  type: {
+    name: string
+  }
+}
+
 interface Props {
   id: string
 }
@@ -17,12 +24,12 @@ export default function DetalhesClient({ id }: Props) {
   useEffect(() => {
     async function fetchPokemon() {
       const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
-      const data: Pokemon = await res.json()  // Tipagem correta
+      const data: Pokemon = await res.json()
       setPokemon(data)
       setIsFavorite(all().some(f => f.id === data.id))
     }
     fetchPokemon()
-  }, [id, all])  // adicionei 'all' como dependência
+  }, [id, all])
 
   if (!pokemon) return <p className="text-center mt-10">Carregando...</p>
 
@@ -39,14 +46,19 @@ export default function DetalhesClient({ id }: Props) {
       />
 
       <p>ID: {pokemon.id}</p>
-      <p>Tipo(s): {pokemon.types.map((t) => t.type.name).join(', ')}</p>
+      <p>
+        Tipo(s):{' '}
+        {pokemon.types
+          .map((t: PokemonType) => t.type.name) // tipagem explícita
+          .join(', ')}
+      </p>
       <p>Peso: {pokemon.weight}</p>
       <p>Experiência Base: {pokemon.base_experience}</p>
 
       <button
         onClick={() => {
           toggle(pokemon)
-          setIsFavorite(!isFavorite) // atualiza o estado local
+          setIsFavorite(!isFavorite)
         }}
         className="mt-4 px-4 py-2 bg-red-500 text-white rounded"
       >
