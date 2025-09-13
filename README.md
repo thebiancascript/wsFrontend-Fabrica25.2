@@ -15,7 +15,6 @@ Uma aplicação front-end para explorar, buscar e favoritar Pokémons utilizando
 - **Tailwind CSS** – Framework utilitário para estilização rápida e responsiva.
 - **Vercel** – Plataforma de deploy contínuo.
 
----
 
 ## 📦 Instalação
 
@@ -38,7 +37,7 @@ npm run dev
 A aplicação estará disponível em [http://localhost:3000](http://localhost:3000).
 
 
----
+
 
 ## 🛠️ Scripts
 
