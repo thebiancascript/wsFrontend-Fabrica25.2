@@ -81,3 +81,4 @@ Visualização de detalhes do Pokémon.
 Favoritar / desfavoritar Pokémons.
 
 Layout responsivo para mobile e desktop.
+<img width="1869" height="898" alt="teladefavs" src="https://github.com/user-attachments/assets/013c8e61-7941-4b1b-808b-c3ff530c3192" />
