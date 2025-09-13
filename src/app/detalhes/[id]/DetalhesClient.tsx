@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { useFavorites } from '@/hooks/useFavorites'
 import { Pokemon } from '@/types/pokemon'
 
-// Tipo para os elementos do array types
+// Tipagem para o array types
 interface PokemonType {
   type: {
     name: string
@@ -49,7 +49,7 @@ export default function DetalhesClient({ id }: Props) {
       <p>
         Tipo(s):{' '}
         {pokemon.types
-          .map((t: PokemonType) => t.type.name) // tipagem explícita
+          .map((t: PokemonType) => t.type.name) // ✅ tipagem explícita
           .join(', ')}
       </p>
       <p>Peso: {pokemon.weight}</p>
