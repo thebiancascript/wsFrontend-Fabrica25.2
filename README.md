@@ -48,8 +48,7 @@ lint – Executa o ESLint para verificar problemas de código.
 
 
 📄 Estrutura de Diretórios
-text
-Copy code
+
 src/
  ├─ app/
  │   ├─ detalhes/      – Página de detalhes de um Pokémon
