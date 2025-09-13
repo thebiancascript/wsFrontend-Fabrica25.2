@@ -26,8 +26,6 @@ Clone o repositório e instale as dependências:
 git clone https://github.com/thebiancascript/wsFrontend-Fabrica25.2.git
 cd wsFrontend-Fabrica25.2
 npm install
-
-
 🧪 Desenvolvimento
 Inicie o servidor de desenvolvimento:
 
@@ -35,7 +33,6 @@ bash
 Copy code
 npm run dev
 A aplicação estará disponível em http://localhost:3000.
-
 
 🛠️ Scripts
 dev: Inicia o servidor de desenvolvimento.
@@ -46,49 +43,33 @@ start: Inicia a aplicação em modo produção.
 
 lint: Executa o ESLint para verificar problemas de código.
 
-
 📄 Estrutura de Diretórios
+css
+Copy code
 src/
-
-app/
-
-detalhes/ – Página de detalhes de um Pokémon.
-
-favoritos/ – Página de Pokémons favoritos.
-
-home/ – Página inicial com a lista de Pokémons.
-
-components/ – Componentes reutilizáveis.
-
-hooks/ – Hooks personalizados.
-
-types/ – Tipagens TypeScript.
-
-
-
+ ├─ app/
+ │   ├─ detalhes/      – Página de detalhes de um Pokémon
+ │   ├─ favoritos/     – Página de Pokémons favoritos
+ │   └─ home/          – Página inicial com a lista de Pokémons
+ ├─ components/        – Componentes reutilizáveis
+ ├─ hooks/             – Hooks personalizados
+ └─ types/             – Tipagens TypeScript
+assets/                – Imagens utilizadas no README
 🌐 Deploy
 A aplicação está online no Vercel:
 
-👉 Clique aqui para acessar
+👉 Acesse aqui
 
+## 📸 Capturas de Tela
 
+### Página inicial com a lista de Pokémons
+![Página Inicial](assets/pokemons.png)
 
-📸 Capturas de Tela
+### Página de detalhes de um Pokémon
+![Detalhes do Pokémon](assets/infos.png)
 
-Página inicial com a lista de Pokémons.
-
-<img width="1901" height="925" alt="image" src="https://github.com/user-attachments/assets/f2b400c4-afa7-4d4d-980e-6f6a2b2b02e2" />
-
-
-Página de detalhes de um Pokémon.
-
-<img width="1905" height="935" alt="Captura de tela 2025-09-13 181402" src="https://github.com/user-attachments/assets/242712a2-1db9-4cb4-92b5-bd6a8bab1d98" />
-
-
-Página que exibe os Pokémons favoritos.
-
-<img width="1869" height="898" alt="Captura de tela 2025-09-13 181640" src="https://github.com/user-attachments/assets/223dde55-7eb3-4309-a3c5-cdae789d4490" />
-
+### Página que exibe os Pokémons favoritos
+![Favoritos](assets/teladefavs.png)
 
 ⭐ Funcionalidades
 Listagem de Pokémons da PokéAPI.
