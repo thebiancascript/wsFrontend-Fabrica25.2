@@ -59,7 +59,7 @@ assets/                – Imagens utilizadas no README
 🌐 Deploy
 A aplicação está online no Vercel:
 
-👉 Acesse aqui
+🔗 <a href="(https://ws-frontend-fabrica25-2-ehqw-git-main-bianca-sobrals-projects.vercel.app/)>Ver site</a></li>
 
 ### Página inicial com a lista de Pokémons
 ![Página Inicial](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/pokemons.png)
