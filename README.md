@@ -69,7 +69,7 @@ types/ – Tipagens TypeScript.
 🌐 Deploy
 A aplicação está online no Vercel:
 
-👉 https://ws-frontend-fabrica25-2-ehqw-git-main-bianca-sobrals-projects.vercel.app/
+👉 Clique aqui para acessar
 
 
 
