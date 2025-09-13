@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#Pokedex
 
-## Getting Started
+##Este é um projeto front-end desenvolvido como parte do desafio da Fábrica de Software. A aplicação permite visualizar, buscar e favoritar Pokémons utilizando a PokéAPI
+.
 
-First, run the development server:
+🚀 Tecnologias Utilizadas
 
-```bash
+Next.js: Framework React para aplicações web.
+
+TypeScript: Superset do JavaScript que adiciona tipagem estática.
+
+Tailwind CSS: Framework utilitário para estilização rápida e responsiva.
+
+Vercel: Plataforma de deploy contínuo para aplicações Next.js.
+
+📦 Instalação
+
+Clone o repositório e instale as dependências:
+
+git clone https://github.com/thebiancascript/wsFrontend-Fabrica25.2.git
+cd wsFrontend-Fabrica25.2
+npm install
+
+🧪 Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A aplicação estará disponível em http://localhost:3000
+.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠️ Scripts
 
-## Learn More
+dev: Inicia o servidor de desenvolvimento.
 
-To learn more about Next.js, take a look at the following resources:
+build: Cria a versão de produção da aplicação.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+start: Inicia a aplicação em modo produção.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+lint: Executa o ESLint para verificar problemas de código.
 
-## Deploy on Vercel
+📄 Estrutura de Diretórios
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+src/: Contém os arquivos fonte da aplicação.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+app/: Diretório principal da aplicação.
+
+detalhes/: Página de detalhes de um Pokémon.
+
+favoritos/: Página que exibe os Pokémons favoritos.
+
+home/: Página inicial com a lista de Pokémons.
+
+components/: Componentes reutilizáveis da interface.
+
+hooks/: Hooks personalizados.
+
+types/: Tipagens TypeScript.
+
+🌐 Deploy
+
+A aplicação está disponível online através do Vercel:
+
+👉 https://ws-frontend-fabrica25-2-ehqw-git-main-bianca-sobrals-projects.vercel.app/
+
+📸 Capturas de Tela
+
+
+Página inicial com a lista de Pokémons.
+
+
+Página de detalhes de um Pokémon.
+
+
+Página que exibe os Pokémons favoritos.
+
+📝 Licença
+
+Distribuído sob a licença MIT. Veja o arquivo LICENSE
+ para mais informações.
+
+Você pode personalizar este README conforme necessário, adicionando ou removendo seções de acordo com as características específicas do seu projeto.
