@@ -69,7 +69,9 @@ types/ – Tipagens TypeScript.
 🌐 Deploy
 A aplicação está online no Vercel:
 
-👉 Clique aqui para acessar
+👉 https://ws-frontend-fabrica25-2-ehqw-git-main-bianca-sobrals-projects.vercel.app/
+
+
 
 📸 Capturas de Tela
 
@@ -80,6 +82,8 @@ Página de detalhes de um Pokémon.
 
 
 Página que exibe os Pokémons favoritos.
+
+
 
 ⭐ Funcionalidades
 Listagem de Pokémons da PokéAPI.
