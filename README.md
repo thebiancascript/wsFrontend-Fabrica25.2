@@ -73,7 +73,7 @@ A aplicação está online no Vercel:
 
 [🔗 Ver site](https://ws-frontend-fabrica25-2-oya8.vercel.app/)
 
----
+
 
 ## 📸 Capturas de Tela
 
@@ -86,7 +86,7 @@ A aplicação está online no Vercel:
 ### Página que exibe os Pokémons favoritos
 ![Favoritos](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/teladefavs.png)
 
----
+
 
 ## ⭐ Funcionalidades
 
