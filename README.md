@@ -61,17 +61,14 @@ A aplicação está online no Vercel:
 
 👉 Acesse aqui
 
-## 📸 Capturas de Tela
-
 ### Página inicial com a lista de Pokémons
-![Página Inicial](https://github.com/thebiancascript/wsFrontend-Fabrica25.2/blob/main/assets/pokemons.png?raw=true)
+![Página Inicial](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/pokemons.png)
 
 ### Página de detalhes de um Pokémon
-![Detalhes do Pokémon](https://github.com/thebiancascript/wsFrontend-Fabrica25.2/blob/main/assets/infos.png?raw=true)
+![Detalhes do Pokémon](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/infos.png)
 
 ### Página que exibe os Pokémons favoritos
-![Favoritos](https://github.com/thebiancascript/wsFrontend-Fabrica25.2/blob/main/assets/teladefavs.png?raw=true)
-
+![Favoritos](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/teladefavs.png)
 
 ⭐ Funcionalidades
 Listagem de Pokémons da PokéAPI.
