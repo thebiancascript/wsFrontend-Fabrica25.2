@@ -26,68 +26,71 @@ Clone o repositório e instale as dependências:
 git clone https://github.com/thebiancascript/wsFrontend-Fabrica25.2.git
 cd wsFrontend-Fabrica25.2
 npm install
+```
 
+### 🧪 Desenvolvimento
 
-🧪 Desenvolvimento
 Inicie o servidor de desenvolvimento:
 
-bash
-Copy code
+```bash
 npm run dev
-A aplicação estará disponível em http://localhost:3000.
+```
 
+A aplicação estará disponível em [http://localhost:3000](http://localhost:3000).
 
-🛠️ Scripts
-dev – Inicia o servidor de desenvolvimento.
+---
 
-build – Cria a versão de produção da aplicação.
+## 🛠️ Scripts
 
-start – Inicia a aplicação em modo produção.
+- `dev` – Inicia o servidor de desenvolvimento.
+- `build` – Cria a versão de produção da aplicação.
+- `start` – Inicia a aplicação em modo produção.
+- `lint` – Executa o ESLint para verificar problemas de código.
 
-lint – Executa o ESLint para verificar problemas de código.
+---
 
+## 📄 Estrutura de Diretórios
 
-📄 Estrutura de Diretórios
-
+```text
 src/
  ├─ app/
- │   ├─ detalhes/      – Página de detalhes de um Pokémon
- │   ├─ favoritos/     – Página de Pokémons favoritos
- │   └─ home/          – Página inicial com a lista de Pokémons
- ├─ components/        – Componentes reutilizáveis
- ├─ hooks/             – Hooks personalizados
- └─ types/             – Tipagens TypeScript
-assets/                – Imagens utilizadas no README
+ │   ├─ detalhes/        – Página de detalhes de um Pokémon
+ │   ├─ favoritos/       – Página de Pokémons favoritos
+ │   └─ home/            – Página inicial com a lista de Pokémons
+ ├─ components/          – Componentes reutilizáveis
+ ├─ hooks/               – Hooks personalizados
+ ├─ lib/                 – Bibliotecas e utils
+ └─ types/               – Tipagens TypeScript
+assets/                  – Imagens utilizadas no README
+public/                  – Arquivos públicos
+```
 
+---
 
+## 🌐 Deploy
 
-🌐 Deploy
 A aplicação está online no Vercel:
 
 [🔗 Ver site](https://ws-frontend-fabrica25-2-oya8.vercel.app/)
 
+---
 
+## 📸 Capturas de Tela
 
-📸 Capturas de Tela
-Página inicial com a lista de Pokémons
+### Página inicial com a lista de Pokémons
+![Página Inicial](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/pokemons.png)
 
-<img width="1903" height="920" alt="pokemons" src="https://github.com/user-attachments/assets/3cd38267-56ce-4cef-990b-71b0e7a7ea8a" />
+### Página de detalhes de um Pokémon
+![Detalhes do Pokémon](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/infos.png)
 
-Página de detalhes de um Pokémon
+### Página que exibe os Pokémons favoritos
+![Favoritos](https://raw.githubusercontent.com/thebiancascript/wsFrontend-Fabrica25.2/main/assets/teladefavs.png)
 
-<img width="1905" height="935" alt="infos" src="https://github.com/user-attachments/assets/1bfa2dcc-2a50-463e-a0f9-9c177ded6511" />
+---
 
-Página que exibe os Pokémons favoritos
+## ⭐ Funcionalidades
 
-<img width="1869" height="898" alt="teladefavs" src="https://github.com/user-attachments/assets/2400f958-adf5-4145-a244-9c1eab2b9d31" />
-
-
-⭐ Funcionalidades
-Listagem de Pokémons da PokéAPI.
-
-Visualização de detalhes do Pokémon.
-
-Favoritar / desfavoritar Pokémons.
-
-Layout responsivo para mobile e desktop.
-
+- Listagem de Pokémons da PokéAPI.
+- Visualização de detalhes do Pokémon.
+- Favoritar / desfavoritar Pokémons.
+- Layout responsivo para mobile e desktop.
