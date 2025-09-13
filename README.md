@@ -55,6 +55,7 @@ src/
  ├─ hooks/             – Hooks personalizados
  └─ types/             – Tipagens TypeScript
 assets/                – Imagens utilizadas no README
+
 🌐 Deploy
 A aplicação está online no Vercel:
 
@@ -62,19 +63,14 @@ A aplicação está online no Vercel:
 
 ## 📸 Capturas de Tela
 
-## 📸 Capturas de Tela
-
-## 📸 Capturas de Tela
-
 ### Página inicial com a lista de Pokémons
 ![Página Inicial](https://github.com/thebiancascript/wsFrontend-Fabrica25.2/blob/main/assets/pokemons.png?raw=true)
 
 ### Página de detalhes de um Pokémon
-! https://github.com/thebiancascript/wsFrontend-Fabrica25.2/blob/main/assets/infos.png?raw=true
+![Detalhes do Pokémon](https://github.com/thebiancascript/wsFrontend-Fabrica25.2/blob/main/assets/infos.png?raw=true)
 
 ### Página que exibe os Pokémons favoritos
 ![Favoritos](https://github.com/thebiancascript/wsFrontend-Fabrica25.2/blob/main/assets/teladefavs.png?raw=true)
-
 
 
 ⭐ Funcionalidades
