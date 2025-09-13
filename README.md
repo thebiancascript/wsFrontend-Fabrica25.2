@@ -63,7 +63,14 @@ assets/                – Imagens utilizadas no README
 🌐 Deploy
 A aplicação está online no Vercel:
 
-🔗 Ver site
+🌐 Deploy
+A aplicação está online no Vercel:
+
+🌐 Deploy
+A aplicação está online no Vercel:
+
+[🔗 Ver site](https://ws-frontend-fabrica25-2-ehqw-git-main-bianca-sobrals-projects.vercel.app/)
+
 
 
 
