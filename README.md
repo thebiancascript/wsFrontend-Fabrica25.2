@@ -77,12 +77,17 @@ A aplicação está online no Vercel:
 
 Página inicial com a lista de Pokémons.
 
+<img width="1901" height="925" alt="image" src="https://github.com/user-attachments/assets/f2b400c4-afa7-4d4d-980e-6f6a2b2b02e2" />
+
 
 Página de detalhes de um Pokémon.
+
+<img width="1905" height="935" alt="Captura de tela 2025-09-13 181402" src="https://github.com/user-attachments/assets/242712a2-1db9-4cb4-92b5-bd6a8bab1d98" />
 
 
 Página que exibe os Pokémons favoritos.
 
+<img width="1869" height="898" alt="Captura de tela 2025-09-13 181640" src="https://github.com/user-attachments/assets/223dde55-7eb3-4309-a3c5-cdae789d4490" />
 
 
 ⭐ Funcionalidades
