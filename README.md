@@ -62,14 +62,17 @@ A aplicação está online no Vercel:
 
 ## 📸 Capturas de Tela
 
+## 📸 Capturas de Tela
+
 ### Página inicial com a lista de Pokémons
-![Página Inicial](assets/pokemons.png)
+![Página Inicial](./assets/pokemons.png)
 
 ### Página de detalhes de um Pokémon
-![Detalhes do Pokémon](assets/infos.png)
+![Detalhes do Pokémon](./assets/infos.png)
 
 ### Página que exibe os Pokémons favoritos
-![Favoritos](assets/teladefavs.png)
+![Favoritos](./assets/teladefavs.png)
+
 
 ⭐ Funcionalidades
 Listagem de Pokémons da PokéAPI.
