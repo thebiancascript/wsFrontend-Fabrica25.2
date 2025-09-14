@@ -7,6 +7,8 @@
 
 Uma aplicação front-end para explorar, buscar e favoritar Pokémons utilizando a [PokéAPI](https://pokeapi.co/).
 
+OBS: Tem dois modos de efeito da Pokédex. O azul e o branco! Então a cor pode variar de acordo com o modo usado no computador, notebook ou celular :) 
+
 
 ## 🚀 Tecnologias Utilizadas
 
